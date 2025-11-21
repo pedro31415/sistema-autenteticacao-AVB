@@ -25,6 +25,6 @@ app.use(cors({
 app.use("/auth", authRoutes);
 app.use("/user", userRoutes);
 
-app.listen(process.env.Port || 3000, () => {
+app.listen(process.env.PORT || 3000, () => {
     console.log("Server rodando na porta 3000")
 });
